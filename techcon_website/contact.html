@@ -18,7 +18,7 @@
 
     <main>
         <h2>Email Address</h2>
-        <a href="mailito:techcon@gmail.com" target="_blank"> Email us</a>
+        <a href="mailito:email@example.com" target="_blank"> Email us</a>
         
         <h2> Social Media </h2>
         <a href="www.linkedin.com/in/techcon" target="_blank"> linkedin</a> 
@@ -35,14 +35,17 @@
         loading="lazy">
       </iframe>
       
-      <h2>Contact Us</h2>
-      <lable for="Name"> Name</lable>
+      <form>
+
+      <label for="Name"> Name</label>
       <input type="text" id="name" name="name" placeholder="Enter your name">
-      <lable for="email"> Email</lable>
+      <label for="email"> Email</label>
       <input type="email" id="email" name="email" placeholder="yourname"gmail.com>
-      <lable for="message"> Message</lable>
-      <input type="message" id="message" name="message" placeholder="message us">
+      <label for="message"> Message</label>
+      <textarea id="message" name="message" rows="4" cols="50" placeholder="type your message here" required></textarea>
       <button type="submit">Send Message</button>
+
+    </form>
 
     </main>
 
